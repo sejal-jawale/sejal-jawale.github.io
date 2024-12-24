@@ -375,7 +375,9 @@ function populateJsonToMarkup() {
               <h3 class="certification__date">${cert.date}</h3>
               <h1 class="certification__title">${cert.title}</h1>
               <span class="certification__subtitle">${cert.from}</span>
-              <a href="${cert.verify_url}" target="_blank" class="button--link">Verify</a>
+              <a href="${cert.view_url}" target="_blank" class="button certificate__button">
+                View
+              </a>
             </div>
           </div>
         `;
@@ -392,8 +394,8 @@ function populateJsonToMarkup() {
                         <h4 class="portfolio__date">${cert.date}</h4>
                         <h3 class="portfolio__title">${cert.title}</h3>
                         <span class="portfolio__from">${cert.from}</span>
-                        <a href="${cert.verify_url}" target="_blank" class="button button--flex button--small portfolio__button">
-                            Verify
+                        <a href="${cert.view_url}" target="_blank" class="button button--flex button--small portfolio__button">
+                            View
                         </a>
                     </div>
                 </div>

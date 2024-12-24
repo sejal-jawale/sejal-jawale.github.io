@@ -767,6 +767,7 @@ body.light-theme {
 
 .certification__card {
   position: relative;
+  display: grid;
   background-color: var(--container-color);
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
@@ -790,6 +791,7 @@ body.light-theme {
 }
 
 .certification__data {
+  display: grid;
   padding: 2rem .5rem 1.25rem 1rem;
 }
 
@@ -811,6 +813,12 @@ body.light-theme {
   font-weight: var(--font-semi-bold);
   margin-top: .25rem;
   margin-bottom: 1rem;
+}
+
+.certificate__button {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
 }
 
 /*=============== PORTFOLIO / MOST RECENT ===============*/

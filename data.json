@@ -23,7 +23,7 @@
             "from": "Scrum Alliance",
             "image": "certificates/certificate-3.png",
             "most_recent": true,
-            "verify_url": "certificates/SejalJawale-ScrumAlliance_CSPO_Certificate.pdf"
+            "view_url": "certificates/SejalJawale-ScrumAlliance_CSPO_Certificate.pdf"
         },
         {
             "date": "2023",
@@ -31,7 +31,7 @@
             "from": "ITIL® Foundation",
             "image": "certificates/certificate-1.png",
             "most_recent": false,
-            "verify_url": "certificates/BA_CERT.pdf"
+            "view_url": "certificates/BA_CERT.pdf"
         },
         {
             "date": "2021",
@@ -39,7 +39,7 @@
             "from": "Coursera",
             "image": "certificates/certificate-2.png",
             "most_recent": false,
-            "verify_url": "https://www.coursera.org/account/accomplishments/specialization/certificate/NJB5FKFHRZPP"
+            "view_url": "https://www.coursera.org/account/accomplishments/specialization/certificate/NJB5FKFHRZPP"
         }
     ],
     "blogs": [
